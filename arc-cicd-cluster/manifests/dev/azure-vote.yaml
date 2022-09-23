@@ -40,7 +40,7 @@ spec:
       - env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
-        image: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-back:ea7a4b6fcaec1887d4d2e0d0142120a2d89e8ee8
+        image: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-back:2fc44426985da26aaed219fdbdfb7cc47bff9892
         name: azure-vote-back
         ports:
         - containerPort: 6379
@@ -69,7 +69,7 @@ spec:
           value: azure-vote-back
         - name: TITLE
           value: Voting Application
-        image: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-front:ea7a4b6fcaec1887d4d2e0d0142120a2d89e8ee8
+        image: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-front:2fc44426985da26aaed219fdbdfb7cc47bff9892
         name: azure-vote-front
         ports:
         - containerPort: 80
