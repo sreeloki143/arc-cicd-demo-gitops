@@ -5,8 +5,8 @@ namespace: dev
 
 images:
   - name: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-front
-    newTag: fa20fb24445a3f6ca2ebc3386afcc020caa33911
+    newTag: ac0dfde75cae11824be5fd35dfb56968d3d050c3
   - name: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-back
-    newTag: fa20fb24445a3f6ca2ebc3386afcc020caa33911
+    newTag: ac0dfde75cae11824be5fd35dfb56968d3d050c3
 resources:
   - manifests.yaml
