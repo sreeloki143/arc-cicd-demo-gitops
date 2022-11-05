@@ -1,4 +1,4 @@
 title: "Voting Application"
 serviceType: ClusterIP
-imageRepo: fsdetdevops.azurecr.io/azvote
+imageRepo: fsdetdevopssandbox.azurecr.io/azvote
 demoAppUrl: "/"
