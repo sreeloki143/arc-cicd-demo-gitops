@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dev
 
 images:
-  - name: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-front
+  - name: fsdetdevops.azurecr.io/azvote/azure-vote-front
     newTag: 4354ee08eee4fbc7192a3d480c914648ce9a88c1
-  - name: fsdetdevopssandbox.azurecr.io/azvote/azure-vote-back
+  - name: fsdetdevops.azurecr.io/azvote/azure-vote-back
     newTag: 4354ee08eee4fbc7192a3d480c914648ce9a88c1
 resources:
   - manifests.yaml
